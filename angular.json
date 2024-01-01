@@ -138,5 +138,5 @@
       }
     }
   },
-  "defaultProject": "tools"
+  "defaultProject": "target"
 }
