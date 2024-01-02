@@ -8,15 +8,15 @@ import { HighchartsChartModule } from "highcharts-angular";
 
 
 // Import angular-fusioncharts
-import { FusionChartsModule } from 'angular-fusioncharts';
+// import { FusionChartsModule } from 'angular-fusioncharts';
 
-// Import FusionCharts library and chart modules
-import * as FusionCharts from 'fusioncharts';
-import * as Charts from 'fusioncharts/fusioncharts.charts';
+// // Import FusionCharts library and chart modules
+// import * as FusionCharts from 'fusioncharts';
+// import * as Charts from 'fusioncharts/fusioncharts.charts';
 
-import * as FusionTheme from 'fusioncharts/themes/fusioncharts.theme.fusion';
+// import * as FusionTheme from 'fusioncharts/themes/fusioncharts.theme.fusion';
 
-FusionChartsModule.fcRoot(FusionCharts, Charts, FusionTheme);
+// FusionChartsModule.fcRoot(FusionCharts, Charts, FusionTheme);
 
 
 @NgModule({
@@ -26,7 +26,7 @@ FusionChartsModule.fcRoot(FusionCharts, Charts, FusionTheme);
     AppRoutingModule,
     FlexLayoutModule,
     HighchartsChartModule,
-    FusionChartsModule,
+    // FusionChartsModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
