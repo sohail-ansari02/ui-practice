@@ -51,7 +51,6 @@
     height: 90px;
     background: #{$fg};
     border-radius: 90px;
-    transition: 0.06s;
   }
 
   input + label {
@@ -64,9 +63,5 @@
   input:checked + label:after {
     left: calc(100% - 5px);
     transform: translateX(-100%);
-  }
-
-  label:active:after {
-    width: 130px;
   }
 }
