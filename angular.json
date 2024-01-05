@@ -8,6 +8,14 @@
       "root": "projects/tools",
       "sourceRoot": "projects/tools/src",
       "prefix": "lib",
+      "schematics": {
+        "@schematics/angular:component": {
+          "style": "scss"
+        },
+        "@schematics/angular:application": {
+          "strict": true
+        }
+      },
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",
@@ -61,9 +69,7 @@
               "projects/target/src/favicon.ico",
               "projects/target/src/assets"
             ],
-            "styles": [
-              "projects/target/src/styles.scss"
-            ],
+            "styles": ["projects/target/src/styles.scss"],
             "scripts": []
           },
           "configurations": {
@@ -129,14 +135,12 @@
               "projects/target/src/favicon.ico",
               "projects/target/src/assets"
             ],
-            "styles": [
-              "projects/target/src/styles.scss"
-            ],
+            "styles": ["projects/target/src/styles.scss"],
             "scripts": []
           }
         }
       }
     }
   },
-  "defaultProject": "target"
+  "defaultProject": "tools"
 }
