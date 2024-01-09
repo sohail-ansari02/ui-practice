@@ -1,0 +1,15 @@
+<aside class="side-nav">
+  <img class="side-nav__logo" src="https://picsum.photos/145/40" alt="logo" width="145" />
+  <nav class="side-nav__navigation">
+    <ul class="side-nav__links">
+      <a
+        *ngFor="let link of [1, 2, 3]"
+        href="#"
+        class="side-nav__link"
+      >
+        link {{ link }}
+      </a>
+    </ul>
+  </nav>
+  <button class="side-nav__link">Log Out</button>
+</aside>

@@ -1,0 +1,50 @@
+.layout {
+  $borderColor: rgb(77, 75, 75);
+
+  color: inherit;
+  background: inherit;
+  position: relative;
+
+  width: 100%;
+  height: 100vh;
+
+  overflow: hidden;
+
+  display: grid;
+  grid-template-columns: auto 1fr;
+
+
+  &__side-nav,
+  &__container {
+    height: 100%;
+  }
+
+  &__top-bar {
+    border-bottom: 1px solid $borderColor;
+  }
+  &__footer {
+    border-top: 1px solid $borderColor;
+  }
+
+  &__side-nav {
+    overflow: auto;
+    height: 100vh;
+
+    border-right: 1px solid $borderColor;
+  }
+  &__container {
+    overflow: auto;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+  }
+  &__content {
+    overflow: auto;
+    padding: 20px 40px;
+
+    & > * {
+      border: 1px solid $borderColor;
+      border-radius: 14px;
+      padding: 14px;
+    }
+  }
+}

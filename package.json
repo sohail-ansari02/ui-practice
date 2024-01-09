@@ -24,6 +24,7 @@
     "fusioncharts": "3.21.1",
     "highcharts": "8.0.0",
     "highcharts-angular": "3.0.0",
+    "pure-start": "^1.0.3",
     "rxjs": "7.5.0",
     "tslib": "2.3.0",
     "zone.js": "0.11.4"

@@ -69,7 +69,13 @@
               "projects/target/src/favicon.ico",
               "projects/target/src/assets"
             ],
-            "styles": ["projects/target/src/styles.scss"],
+            "styles": [
+              "pure-start/pure-start.css",
+              "src/styles/global/styles.scss"
+            ],
+            "stylePreprocessorOptions": {
+              "includePaths": ["src/styles"]
+            },
             "scripts": []
           },
           "configurations": {
@@ -142,5 +148,5 @@
       }
     }
   },
-  "defaultProject": "tools"
+  "defaultProject": "target"
 }
