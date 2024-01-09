@@ -71,10 +71,10 @@
             ],
             "styles": [
               "pure-start/pure-start.css",
-              "src/styles/global/styles.scss"
+              "projects/target/src/styles/global/styles.scss"
             ],
             "stylePreprocessorOptions": {
-              "includePaths": ["src/styles"]
+              "includePaths": ["projects/target/src/styles"]
             },
             "scripts": []
           },
