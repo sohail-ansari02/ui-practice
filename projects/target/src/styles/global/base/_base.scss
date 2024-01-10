@@ -2,3 +2,7 @@
 // This file contains very basic styles.
 // i.e all links should have red underline
 // -----------------------------------------------------------------------------
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: var($--background);
+}

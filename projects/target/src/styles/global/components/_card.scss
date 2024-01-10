@@ -1,7 +1,7 @@
 .card {
+    position: relative;
+    padding: toRem(30) toRem(36);
     transition: backgroud;
-    padding: toRem(40) toRem(33);
-    border-radius: 10px;
     &__heading{
         margin-block-end: .9rem;
     }

@@ -1,0 +1,11 @@
+.chart-card{
+    & .heading{
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+    & .chart-wrapper{
+        background-color: var($--surface);
+        border-radius: 2px;
+        padding: 16px;
+    }
+}

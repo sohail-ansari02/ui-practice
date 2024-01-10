@@ -1,0 +1,27 @@
+@import "abstracts";
+.card {
+  color: var($--neutral);
+  max-width: max-content;
+  &__value {
+    font-size: 32px;
+  }
+  &__name {
+    font-size: 18px;
+  }
+
+  &:not(&:last-child) {
+    &::after {
+        content: "";
+      position: absolute;
+      right: 0;
+      top: 20%;
+      width: 1px;
+      height: 60%;
+      background-color: var($--neutral);
+    }
+  }
+}
+.cards{
+    border-bottom: 1px solid var($--neutral);
+    background-color: var($--surface);
+}

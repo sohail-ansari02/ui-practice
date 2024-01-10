@@ -1,3 +1,4 @@
+@import "abstracts";
 :host {
 
 }
@@ -5,16 +6,22 @@
 .side-nav {
   box-sizing: border-box;
   height: 100%;
-  padding: 38px 35px 28px 20px;
+  // padding: 38px 35px 28px 20px;
   display: grid;
   grid-template-rows: auto 1fr auto;
+  color: var($--background);
+  background-color: var($--primary);
 
   &__logo {
     object-fit: contain;
-    width: 145;
+    width: 100%;
     height: auto;
-    aspect-ratio: 145/40;
-    margin-block-end: 48px;
+    margin-block-end: 18px;
+  }
+  &__title{
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: .4em;
   }
   &__navigation {
     overflow-y: auto;
@@ -29,5 +36,6 @@
   }
   &__link {
     width: 100%;
+    padding: 14px 18px;
   }
 }

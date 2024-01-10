@@ -1,0 +1,15 @@
+<section>
+  <div fxLayout class="cards">
+    <div
+      *ngFor="let i of [1, 2, 3, 4]"
+      fxLayout="column"
+      fxLayoutGap="18px"
+      fxLayoutAlign="start center"
+      fxFlex="grow"
+      class="card"
+    >
+      <div class="card__value">{{ i }}</div>
+      <div class="card__name">demo{{ i }}</div>
+    </div>
+  </div>
+</section>

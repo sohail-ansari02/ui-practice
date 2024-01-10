@@ -16,6 +16,7 @@ import * as Charts from 'fusioncharts/fusioncharts.charts';
 
 import * as FusionTheme from 'fusioncharts/themes/fusioncharts.theme.fusion';
 import { ToolsModule } from "projects/tools/src/public-api";
+import { CoreModule } from "./core/core.module";
 
 FusionChartsModule.fcRoot(FusionCharts, Charts, FusionTheme);
 
@@ -28,7 +29,8 @@ FusionChartsModule.fcRoot(FusionCharts, Charts, FusionTheme);
     FlexLayoutModule,
     HighchartsChartModule,
     FusionChartsModule,
-    ToolsModule
+    ToolsModule,
+    CoreModule
   ],
   providers: [],
   bootstrap: [AppComponent],
